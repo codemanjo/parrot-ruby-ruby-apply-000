@@ -1,11 +1,8 @@
-phrase= ("Ah","Uhh","Cacaa")
+term= ["Ah","Uhh","Cacaa"]
 
-def parrot(phrase=Squawk)
-  if phrase >= 0
-    puts "#{phrase}"
-  else phrase == 0
-    return phrase
-
+def parrot(phrase = "Squawk!")
+  puts "#{phrase}"
+  return phrase
 end
 
 parrot()
