@@ -1,7 +1,11 @@
-noise= ["quack","ca ca"]
-a= noise
-def parrot(a,b=Squawk)
-  if noise > 3 return squawk
+phrase= ("Ah","Uhh","Cacaa")
+
+def parrot(phrase=Squawk)
+  if phrase >= 0
+    puts "#{phrase}"
+  else phrase == 0
+    return phrase
+
 end
 
-parrot(b)
+parrot()
