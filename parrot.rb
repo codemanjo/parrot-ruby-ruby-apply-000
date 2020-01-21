@@ -1,2 +1,7 @@
-# Create method `parrot` that outputs a given phrase and
-# returns the phrase
+noise= ["quack","ca ca"]
+a= noise
+def parrot(a,b=Squawk)
+  if noise > 3 return squawk
+end
+
+parrot(b)
